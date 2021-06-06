@@ -409,6 +409,47 @@
                     <use href="./images/icons.svg#icon-close-btn"></use>
                 </svg>
             </button>
+            <form class="modal-form">
+                <p class="modal-form-title">Оставьте свои данные, мы вам перезвоним</p>
+                <label class="modal-form-field">
+                    Имя
+                    <span class="modal-form-input-wrapper">
+                        <input class="modal-form-input" type="text" name="user-name" minlength="2" required>
+                        <svg class="modal-form-icon">
+                            <use href="./images/icons.svg#icon-person"></use>
+                        </svg>
+                    </span>
+                </label>
+                <label class="modal-form-field">
+                    Телефон
+                    <span class="modal-form-input-wrapper">
+                        <input class="modal-form-input" type="tel" name="user-tel-number" required>
+                        <svg class="modal-form-icon">
+                            <use href="./images/icons.svg#icon-phone"></use>
+                        </svg>
+                    </span>
+                </label>
+                <label class="modal-form-field">
+                    Почта
+                    <span class="modal-form-input-wrapper">
+                        <input class="modal-form-input" type="email" name="user-mail" required>
+                        <svg class="modal-form-icon">
+                            <use href="./images/icons.svg#icon-email"></use>
+                        </svg>
+                    </span>
+                </label>
+                <label class="modal-message-field">
+                    Комментарий
+                    <textarea class="modal-form-message" name="user-message"  placeholder="Введите текст" title="Введите комментарий"></textarea>
+                </label>
+                <label class="field">
+                    <input class="checkbox" type="checkbox" name="user-policy" value="agree" required>
+                    <span class="icon"></span>
+                    <span class="label">Соглашаюсь с рассылкой и принимаю <a class="agreement-link" href="#" >Условия договора</a></span>
+                    
+                </label>
+                <button class="modal-form-btn" type="submit" >Отправить</button>
+            </form>
         </div>
     </div>
     <script src="./js/modal.js"></script>
