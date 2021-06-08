@@ -905,6 +905,10 @@ ul {
   background-origin: border-box;
 }
 
+.checkbox:focus + .icon {
+  border-color: var(--accent-color);
+}
+
 .label {
   font-size: 14px;
   line-height: 1.71;
